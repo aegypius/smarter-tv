@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/aegypius/smarter-tv.png?label=ready&title=Ready)](https://waffle.io/aegypius/smarter-tv)
 smarter-tv
 ==========
 A webapp to make your TV smarter
