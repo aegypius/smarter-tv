@@ -1,5 +1,5 @@
 {
-  "name": "profile",
+  "name": "smarter-tv-component-profile",
   "version": "0.0.1",
   "description": "Profile provider",
   "main": "index.coffee",

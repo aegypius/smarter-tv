@@ -1,5 +1,5 @@
 {
-    "name": "http",
+    "name": "smarter-tv-component-http",
     "description": "Express 4.x http server for smarter-tv",
     "version": "0.0.1",
     "main": "index.coffee",
