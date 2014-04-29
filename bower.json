@@ -1,0 +1,21 @@
+{
+  "name": "smarter-tv",
+  "version": "0.0.0",
+  "description": "A webapp to make your TV smarter",
+  "main": "index.js",
+  "private": true,
+  "authors": [
+    "Nicolas LAURENT <innercircle@aegypius.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/aegypius/smarter-tv",
+  "dependencies": {
+  }
+}

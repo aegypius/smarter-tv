@@ -1,0 +1,19 @@
+{
+    "name": "http",
+    "description": "Express 4.x http server for smarter-tv",
+    "version": "0.0.1",
+    "main": "index.coffee",
+    "private": true,
+    "author": {
+        "name"  : "Nicolas LAURENT",
+        "email" : "innercircle@aegypius.com"
+    },
+    "dependencies": {
+        "express": "^4.1.1",
+        "morgan": "^1.0.0"
+    },
+    "plugin": {
+        "consumes" : ["logger"],
+        "provides" : ["http", "router"]
+    }
+}
