@@ -1,28 +1,28 @@
 module.exports = (options, imports, register) ->
-  logger  = require "morgan"
   express = require "express"
   path    = require "path"
   server  = express()
+  logger  = imports.logger
 
   root = process.env.HTTP_ROOT or path.join(__dirname, '../../public')
   port = process.env.PORT or 3333
 
   server.use express.static root
-  server.use logger {
+  server.use (require "morgan")({
     stream: {
       write: (message) ->
-        imports.logger.verbose message.trim() if message
+        logger.info message.trim() if message
     }
-  }
+  })
 
   server.listen port, (err, callback) ->
-    imports.logger.info "Http server started at http://0.0.0.0:#{port}"
+    logger.debug "http listening on #{port}"
     callback() if callback
 
   register null, {
     onDestruct: (callback) ->
       server.close(callback);
-      imports.logger.debug "Http server stopped"
+      logger.debug "http stopped"
     ,
     http:   server
     router: express.Router

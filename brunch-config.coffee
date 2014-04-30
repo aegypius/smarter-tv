@@ -1,12 +1,7 @@
 exports.config =
 
   paths:
-    watched: [
-      'core',
-      'modules',
-      'app',
-      'test'
-    ]
+    watched: ['core', 'modules', 'app', 'test']
 
   files:
     javascripts:

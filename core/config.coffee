@@ -1,3 +1,5 @@
+require "date-utils"
+
 fs           = require "fs"
 path         = require "path"
 location     = path.join(__dirname, "../", "./modules")
@@ -8,6 +10,8 @@ config = [{
     "console" : {
       "colorize": true,
       "level": "verbose",
+      "timestamp": ()->
+        new Date().toFormat('DD MMM HH24:MI:SS')
     }
   }
 }]
