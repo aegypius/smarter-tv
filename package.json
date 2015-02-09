@@ -1,0 +1,25 @@
+{
+  "name": "smarter-tv",
+  "version": "0.0.0",
+  "description": "A webapp to make your TV smarter",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aegypius/smarter-tv.git"
+  },
+  "author": "Nicolas LAURENT <github@aegypius.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aegypius/smarter-tv/issues"
+  },
+  "homepage": "https://github.com/aegypius/smarter-tv",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "superagent": "^0.21.0"
+  }
+}
