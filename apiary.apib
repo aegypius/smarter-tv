@@ -2,3 +2,54 @@ FORMAT: 1A
 
 # smarter-tv
 Smarter TV API is a *media-center* service to store media meta-data.
+
+# Group Video Library
+
+Library collections are store using common objects for movies, tv-shows
+
+## Movies [/library/movies]
+### List all Movies [GET]
+
++ Response 200 (application/json)
+
+        [{
+        }]
+
+
+### Add a Movie [POST]
+
++ Request (application/json)
+
+        { }
+
++ Response 201 (application/json)
+
+        { }
+
+
+## Movie [/library/movies/{id}]
+A single Movie object with all its details
+
++ Parameters
+    + id (required, number, `1`) ... Numeric `id` of the Movie (tmdb) to perform action with.
+
+
+### Retrieve a Movie [GET]
++ Response 200 (application/json)
+
+        { }
+
+### Remove a Movie [DELETE]
++ Response 204
+
+
+
+
+## TV Shows [/library/tv-shows]
+### List all shows [GET]
+
++ Response 200 (application/json)
+
+        [{
+        }]
+
