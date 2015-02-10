@@ -19,6 +19,7 @@
   "homepage": "https://github.com/aegypius/smarter-tv",
   "devDependencies": {
     "chai": "^1.10.0",
+    "drakov": "0.0.15",
     "mocha": "^2.1.0",
     "superagent": "^0.21.0"
   }
