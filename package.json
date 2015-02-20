@@ -5,7 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,34 @@
   },
   "homepage": "https://github.com/aegypius/smarter-tv",
   "devDependencies": {
-    "chai": "^1.10.0",
-    "drakov": "0.0.15",
+    "casual": "^1.4.7",
+    "chai": "2.0.0",
+    "dotenv": "^0.5.1",
+    "drakov": "0.1.0",
     "mocha": "^2.1.0",
-    "superagent": "^0.21.0"
+    "supertest": "^0.15.0"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.9",
+    "body-parser": "^1.12.0",
+    "coffee-script": "^1.9.0",
+    "compression": "^1.4.1",
+    "debug": "^2.1.1",
+    "errorhandler": "^1.3.4",
+    "express": "^4.11.2",
+    "fakeredis": "^0.3.0",
+    "fibers": "^1.0.5",
+    "jade": "^1.9.2",
+    "method-override": "^2.3.1",
+    "morgan": "^1.5.1",
+    "node-jsx": "^0.12.4",
+    "node-tvdb": "^0.4.7",
+    "oauth2-server": "^2.3.0",
+    "react": "^0.12.2",
+    "react-async": "^2.0.1",
+    "react-router": "^0.12.0",
+    "react-router-component": "^0.23.3",
+    "redis": "^0.12.1",
+    "waterline": "^0.10.18"
   }
 }
